@@ -14,9 +14,11 @@ img {
 }
 
 a {
-    color: #000;
     text-decoration: none;
-    font-weight: 700;
+}
+
+ul {
+    list-style: none;
 }
 
 /* Utils */
@@ -36,15 +38,13 @@ header {
     align-items: center;
 }
 
-
-#top-navbar ul {
-    list-style: none;
-    align-items: stretch;
-}
-
 #top-navbar ul li {
     padding: 0rem 1rem;
-    align-self: stretch;
+}
+
+#top-navbar ul li a {
+    color: black;
+    font-weight: 700;
 }
 
 #top-navbar ul li :hover {
@@ -56,5 +56,27 @@ header {
 
 footer {
     background-image: url("assets/img/footer-bg.jpg");
-    height: fit-content;
+}
+
+#footer-nav {
+    justify-content: space-between;
+    padding: 3rem 0rem;
+}
+
+
+
+#footer-nav a {
+    color: white;
+    font-size: small;
+}
+
+#footer-nav h4 {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#footerLinks section {
+    padding: 1rem;
 }

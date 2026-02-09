@@ -116,10 +116,30 @@ const FooterLinks = [
 
 export default function FooterNavbar() {
     return (
-        <nav className="container">
-            <figure>
-                <img src="./src/assets/img/dc-logo-bg.png" alt="" />
-            </figure>
+        <nav className="container d-flex" id="footer-nav">
+            <div className="d-flex" id="footerLinks">
+                {FooterLinks.map((section, index) => {
+                    return (
+                        <section key={index}>
+                            <h4>{section.title}</h4>
+                            <ul>
+                                {(section.links).map((link, index) => {
+                                    return (
+                                        <li key={index}>
+                                            <a href={link.href}>{link.label}</a>
+                                        </li>
+                                    )
+                                })}
+                            </ul>
+                        </section>
+                    )
+                })}
+            </div>
+            <div>
+                <figure>
+                    <img src="./src/assets/img/dc-logo-bg.png" alt="DC logo" />
+                </figure>
+            </div>
 
         </nav>
     )
