@@ -25,17 +25,19 @@ a {
     max-width: 1200px;
 }
 
+.d-flex {
+    display: flex;
+}
+
 /* @ HEADER */
 
 header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 
 #top-navbar ul {
-    display: flex;
     list-style: none;
     align-items: stretch;
 }
@@ -53,7 +55,6 @@ header {
 /* @ FOOTER */
 
 footer {
-    display: flex;
     background-image: url("assets/img/footer-bg.jpg");
     height: fit-content;
 }

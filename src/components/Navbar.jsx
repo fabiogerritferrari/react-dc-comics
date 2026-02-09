@@ -55,7 +55,7 @@ export default function Navbar() {
 
     return (
         <nav id="top-navbar">
-            <ul>
+            <ul className="d-flex">
                 {Links.map(link => {
                     return (
                         <li key={link.id}>
