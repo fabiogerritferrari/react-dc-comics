@@ -49,3 +49,11 @@ header {
     color: #0c7cec;
     border-bottom: 5px solid #0c7cec;
 }
+
+/* @ FOOTER */
+
+footer {
+    display: flex;
+    background-image: url("assets/img/footer-bg.jpg");
+    height: fit-content;
+}
