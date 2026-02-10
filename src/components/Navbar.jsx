@@ -59,7 +59,7 @@ export default function Navbar() {
                 {Links.map(link => {
                     return (
                         <li key={link.id}>
-                            <a href="#">
+                            <a href="#" className={link.current ? 'active' : ''}>
                                 {link.text}
                             </a>
                         </li>
