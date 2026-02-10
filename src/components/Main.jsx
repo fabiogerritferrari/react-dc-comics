@@ -1,7 +1,12 @@
+import Products from './ProductComponent/Products'
+
 export default function Main() {
     return <>
         <main>
-            Main
+            <section id="jumbotron"></section>
+            <div className='bg-dark-grey'>
+                <Products />
+            </div>
         </main>
     </>
 }

@@ -35,6 +35,14 @@ ul {
     background-color: #303030;
 }
 
+.bg-dark-grey {
+    background-color: #1c1c1c;
+}
+
+.bg-dark-blue {
+    background-color: #0282f9;
+}
+
 /* @ HEADER */
 
 header {
@@ -54,6 +62,52 @@ header {
 #top-navbar ul li :hover {
     color: #0c7cec;
     border-bottom: 5px solid #0c7cec;
+}
+
+/* @ MAIN */
+
+#jumbotron {
+    background-image: url(assets/img/jumbotron.jpg);
+    background-size: cover;
+    height: 470px;
+}
+
+#product-section {
+    color: white;
+    padding-bottom: 2rem;
+}
+
+#product-section span {
+    padding: 0.5rem 1rem;
+}
+
+#product-section ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#product-section ul li {
+    flex-basis: 15%;
+    margin-top: 1rem;
+    padding: 1.2rem;
+}
+
+#product-section button {
+    padding: 0.5rem 2rem;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-card img {
+    object-fit: cover;
+    margin-bottom: 1rem;
+    width: 200px;
+    height: 220px;
+}
+
+.product-card h3 {
+    font-size: small;
 }
 
 /* @ FOOTER */
