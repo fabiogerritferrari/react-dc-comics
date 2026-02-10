@@ -1,6 +1,6 @@
 export default function FooterBottomNavbar() {
     return (
-        <div className="bg-grey">
+        <div className="bg-grey" id="footer-btm-nav-bg">
             <nav className="d-flex container" id="footer-bottom-navbar">
                 <section>
                     <button id="footer-btn">SIGN-UP NOW</button>
