@@ -27,10 +27,9 @@ export default function MainBottomNavbar() {
             <ul className="d-flex" id="main-bt-nav">
                 {links.map((link) => {
                     return (
-
                         <li key={link.id} className="d-flex">
                             <img src={link.img} alt={link.title} />
-                            <span>{link.title}</span>
+                            <a href="#">{link.title}</a>
                         </li>
                     )
                 })}

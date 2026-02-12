@@ -119,12 +119,17 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 3rem;
+    position: relative;
+    z-index: 2;
 }
 
 #main-bt-nav li {
     align-items: center;
-    color: white;
     margin-right: 4rem;
+}
+
+#main-bt-nav li a {
+    color: white;
 }
 
 #main-bt-nav img {
