@@ -74,7 +74,7 @@ header {
 #jumbotron {
     background-image: url(assets/img/jumbotron.jpg);
     background-size: cover;
-    height: 470px;
+    height: 500px;
 }
 
 #product-section {
@@ -84,6 +84,7 @@ header {
 
 #product-section span {
     padding: 0.5rem 1rem;
+    font-weight: 600;
 }
 
 #product-section ul {

@@ -1,16 +1,20 @@
-import comics from './comics'
+import ProductCard from './ProductCard'
 
-export default function Products() {
+export default function Products(props) {
+
+    const { comics } = props;
+
     return (
         <section id='product-section' className='container'>
             <span className='bg-dark-blue'>CURRENT SERIES</span>
             <ul className='d-flex'>
                 {comics.map((comic) => {
                     return (
-                        <li className="product-card" key={comic.id}>
-                            <img src={comic.thumb} alt={comic.title} />
-                            <h3>{comic.title}</h3>
-                        </li>
+                        <ProductCard
+                            id={comic.id}
+                            thumb={comic.thumb}
+                            title={comic.title}
+                        />
                     )
                 })}
             </ul>
