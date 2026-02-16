@@ -1,5 +1,5 @@
-import FooterNavbar from './FooterNavbar'
-import FooterBottomNavbar from './FooterBottomNavbar'
+import FooterNavbar from './Footer components/FooterNavbar'
+import FooterBottomNavbar from './Footer components/FooterBottomNavbar'
 
 export default function Footer() {
     return <>

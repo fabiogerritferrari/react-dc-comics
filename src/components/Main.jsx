@@ -1,5 +1,5 @@
 import Products from './ProductComponent/Products'
-import MainBottomNavbar from './MainBottomNavBar'
+import MainBottomNavbar from './Main components/MainBottomNavBar'
 import comics from './ProductComponent/comics'
 
 export default function Main() {

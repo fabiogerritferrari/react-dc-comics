@@ -50,6 +50,7 @@ header {
     align-items: center;
 }
 
+
 #top-navbar ul li {
     padding: 0rem 1rem;
 }
@@ -105,11 +106,18 @@ header {
     margin: 0 auto;
 }
 
+.product-card {}
+
 .product-card img {
     object-fit: cover;
     margin-bottom: 1rem;
     width: 200px;
     height: 220px;
+}
+
+.product-card :hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
 }
 
 .product-card h3 {
