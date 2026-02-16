@@ -48,8 +48,12 @@ ul {
 header {
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
 
+header figure img {
+    width: 70px;
+}
 
 #top-navbar ul li {
     padding: 0rem 1rem;
@@ -100,13 +104,21 @@ header {
 }
 
 #product-section button {
+    border: 0px;
     padding: 0.5rem 2rem;
     color: white;
     display: block;
     margin: 0 auto;
 }
 
-.product-card {}
+#product-section button:hover {
+    cursor: pointer;
+}
+
+#product-section button:active {
+    transform: translateY(2px);
+    opacity: 0.8;
+}
 
 .product-card img {
     object-fit: cover;
@@ -137,6 +149,16 @@ header {
     margin-right: 4rem;
 }
 
+#main-bt-nav li:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+
+#main-bt-nav li:active {
+    transform: translateY(2px);
+    opacity: 0.8;
+}
+
 #main-bt-nav li a {
     color: white;
 }
@@ -146,7 +168,7 @@ header {
     width: 50px;
     height: 50px;
     padding: 0.2rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 /* @ FOOTER */
@@ -163,7 +185,7 @@ footer {
 
 #footer-nav figure img {
     position: absolute;
-    top: 1370px;
+    top: 1410px;
     right: 159px;
     z-index: 0;
 }
@@ -185,7 +207,8 @@ footer {
 }
 
 #footerLinks section {
-    padding: 1rem;
+
+    padding: 3rem 1rem;
 }
 
 #footer-btm-nav-bg {
