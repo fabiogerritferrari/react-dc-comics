@@ -181,13 +181,11 @@ footer {
 
 #footer-nav {
     justify-content: space-between;
+    position: relative;
 }
 
 #footer-nav figure img {
-    position: absolute;
-    top: 1410px;
-    right: 159px;
-    z-index: 0;
+    position: relative;
 }
 
 #footer-nav section {
@@ -236,6 +234,11 @@ footer {
     padding: 0.8rem 0.5rem;
 }
 
+#footer-btn:hover {
+    cursor: pointer;
+    background-color: #008aff;
+}
+
 #footer-social {
     align-items: center;
 }
@@ -245,4 +248,9 @@ footer {
     background-color: #797979;
     border-radius: 50%;
     margin: 0rem 0.5rem;
+}
+
+#footer-social i:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
 }

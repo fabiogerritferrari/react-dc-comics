@@ -11,7 +11,7 @@ export default function Products(props) {
                 {comics.map((comic) => {
                     return (
                         <ProductCard
-                            id={comic.id}
+                            key={comic.id}
                             thumb={comic.thumb}
                             title={comic.title}
                         />

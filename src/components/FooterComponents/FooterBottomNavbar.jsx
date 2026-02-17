@@ -1,3 +1,4 @@
+
 export default function FooterBottomNavbar() {
     return (
         <div className="bg-grey" id="footer-btm-nav-bg">
@@ -7,11 +8,11 @@ export default function FooterBottomNavbar() {
                 </section>
                 <section className="d-flex" id="footer-social">
                     <h4>FOLLOW US</h4>
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter-x"></i>
-                    <i class="bi bi-youtube"></i>
-                    <i class="bi bi-pinterest"></i>
-                    <i class="bi bi-geo-alt"></i>
+                    <i className="bi bi-facebook"></i>
+                    <i className="bi bi-twitter-x"></i>
+                    <i className="bi bi-youtube"></i>
+                    <i className="bi bi-pinterest"></i>
+                    <i className="bi bi-geo-alt"></i>
                 </section>
             </nav>
         </div>

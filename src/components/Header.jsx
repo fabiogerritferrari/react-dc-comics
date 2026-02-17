@@ -1,12 +1,12 @@
-import Navbar from "./Header components/Navbar"
+import Navbar from "./HeaderComponents/Navbar"
 
 export default function Header() {
-    return <>
+    return (
         <header className="d-flex container">
             <figure>
                 <img src="/src/assets/img/dc-logo.png" alt="DC-Logo" />
             </figure>
             <Navbar />
         </header>
-    </>
+    )
 }

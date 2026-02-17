@@ -1,11 +1,11 @@
-import FooterNavbar from './Footer components/FooterNavbar'
-import FooterBottomNavbar from './Footer components/FooterBottomNavbar'
+import FooterNavbar from './FooterComponents/FooterNavbar'
+import FooterBottomNavbar from './FooterComponents/FooterBottomNavbar'
 
 export default function Footer() {
-    return <>
+    return (
         <footer>
             <FooterNavbar />
             <FooterBottomNavbar />
         </footer>
-    </>
+    )
 }

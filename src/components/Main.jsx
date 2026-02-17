@@ -1,9 +1,9 @@
 import Products from './ProductComponent/Products'
-import MainBottomNavbar from './Main components/MainBottomNavBar'
+import MainBottomNavbar from './MainComponents/MainBottomNavBar'
 import comics from './ProductComponent/comics'
 
 export default function Main() {
-    return <>
+    return (
         <main>
             <section id="jumbotron"></section>
             <div className='bg-dark-grey'>
@@ -13,5 +13,5 @@ export default function Main() {
                 <MainBottomNavbar />
             </div>
         </main>
-    </>
+    )
 }
